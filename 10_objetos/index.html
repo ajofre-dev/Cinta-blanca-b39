@@ -13,24 +13,49 @@
     <h1 class="container">Objetos</h1>
 
     <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Pinturas
-        </span>
+        <span class="navbar-brand mb-0 h1">Pinturas</span>
     </nav>
 
     <section>
         <div class="container">
-            <div>
-                <div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." id="objetourl" class="card-img-top" alt="...">
+                        <img id="objeto-url" src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title" id="objeto-nombre">Card title</h5>
                             <p class="card-text" id="objeto-mensaje">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                                of
+                                the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
+                </div>
 
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img id="objeto01-url" src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 id="objeto01-nombre" class="card-title" id="objeto01-nombre">Card title</h5>
+                            <p class="card-text" id="objeto01-mensaje">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -38,11 +63,11 @@
 
     <Section>
 
-            <div class="form-group">
-              <label for="nombre">Email address</label>
-              <input onkeyup="dimeMiNombre()" type="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-group">
+            <label for="nombre">Email address</label>
+            <input onkeyup="dimeMiNombre()" type="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
 
     </Section>
 

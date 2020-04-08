@@ -11,47 +11,74 @@ var objeto = {
 
 
 
-    calcularEdad: function () { 
-        return 2020 - this.anio 
+    calcularEdad: function () {
+        return 2020 - this.anio
     },
 
     numeroColores: function () {
         if (this.colores.length === 1) {
             return "La pintura " + this.nombre + " del pintor " + this.autor + " tiene " + this.colores.length + " color"
-        
-    }else {
-        return "La pintura " + this.nombre + " del pintor " + this.autor + " tiene " + this.colores.length + " colores"
+
+        } else {
+            return "La pintura " + this.nombre + " del pintor " + this.autor + " tiene " + this.colores.length + " colores"
+        }
+    },
+    obtenerInfo: function () {
+        return "La obra " + this.nombre + " fue pintada por " + this.autor + " en el año " + this.anio
     }
-},
-obtenerInfo: function() {
-    return "La obra " + this.nombre + " fue pintada por " + this.autor + " en el año " + this.anio
-}
 
 
 }
 
-console.log(objeto);
-console.log(objeto.autor);
+var objeto01 = {
+    nombre: "El grito",
+    autor: "Edvard Munch",
+    anio: "1999",
+    url: "https://cdn3.m.admexico.mx/uploads/images/thumbs/mx/ad/1/s/2019/33/el_grito_pintura_8782_600x.jpg"
+}
 
-console.log(objeto.calcularEdad());
-console.log(objeto.numeroColores());
-console.log(objeto.obtenerInfo());
+var objeto02 = {
+    nombre: "La noche estrellada",
+    autor: "Van Gogh",
+    tecnica: "Oleo",
+}
 
-//var objetoNombre = document.getElementById("objeto-nombre");
-//console.log(objetoNombre)
+var objetoNombre = document.getElementById("objeto-nombre");
+var objetoMensaje = document.getElementById("objeto-mensaje");
+var objetoUrl = document.getElementById("objeto-url");
+var objeto01Nombre = document.getElementById("objeto01-nombre");
+var objeto01Mensaje = document.getElementById("objeto01-mensaje")
+var objeto01Url = document.getElementById("objeto01-url");
+//console.log(objetoNombre);
+//console.log(objetoMensaje);
 
-//var objetoMensaje = document.getElementById("objeto-mensaje");
-//console.log(objetoMensaje)
+objetoNombre.innerHTML = objeto.nombre;
+objetoMensaje.innerHTML = objeto.obtenerInfo();
+objetoUrl.src = objeto.url;
+objeto01Nombre.innerHTML = objeto01.nombre;
+objeto01Mensaje = objeto01.autor;
+objeto01Url.src = objeto01.url;
 
-//objetoNombre.innerHTML = objeto.nombre
-//objetoMensaje.innerHTML = objeto.numeroColores();
-//objetoUrl.src = objeto.url;
-//objetoUrl.alt = objeto.nombre;
+//console.log(objetoNombre.innerHTML);
 
 
+
+//console.log(objeto);
+//console.log(objeto.autor);
+
+//console.log(objeto.calcularEdad());
+//console.log(objeto.numeroColores());
+//console.log(objeto.obtenerInfo());
 
 //console.error("Esto es un error");
+//console.warn("Puede que te equivoques");
+//console.log("Un log normal");
 
+
+
+
+//objetoUrl.src = objeto.url;
+//objetoUrl.alt = objeto.nombre;
 
 //function dimeMiNomre () {
     //var nombre = document.getElementById("nombre");

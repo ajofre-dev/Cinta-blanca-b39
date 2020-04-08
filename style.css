@@ -1,0 +1,27 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+    background-color: #FCFCED;
+}
+
+h1 {
+    font-style: normal;
+}
+
+.brillo:hover{
+    color: white;
+    opacity: 1;
+}
+
+.back{
+    background-color: #E5EFFE;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.center_01{
+    text-align: center;
+}

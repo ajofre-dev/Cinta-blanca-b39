@@ -24,7 +24,8 @@
                         <img id="objeto-url" src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title" id="objeto-nombre">Card title</h5>
-                            <p class="card-text" id="objeto-mensaje">Some quick example text to build on the card title and make up the bulk
+                            <p class="card-text" id="objeto-mensaje">Some quick example text to build on the card title
+                                and make up the bulk
                                 of
                                 the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -36,8 +37,9 @@
                     <div class="card" style="width: 18rem;">
                         <img id="objeto01-url" src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 id="objeto01-nombre" class="card-title" id="objeto01-nombre">Card title</h5>
-                            <p class="card-text" id="objeto01-mensaje">Some quick example text to build on the card title and make up the bulk
+                            <h5 class="card-title" id="objeto01-nombre">Card title</h5>
+                            <p class="card-text" id="objeto01-autor">Some quick example text to build on the card title
+                                and make up the bulk
                                 of
                                 the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -47,10 +49,11 @@
 
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img id="objeto02-url" src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                            <h5 class="card-title" id="objeto02-nombre">Card title</h5>
+                            <p class="card-text" id="objeto02-mensaje">Some quick example text to build on the card
+                                title and make up the bulk
                                 of
                                 the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -61,20 +64,22 @@
         </div>
     </section>
 
-    <Section>
-
-        <div class="form-group">
-            <label for="nombre">Email address</label>
-            <input onkeyup="dimeMiNombre()" type="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+    <section>
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+                </div>
+                <button onclick="dimeMiNombre()" class="btn btn-primary">Dime mi nombre</button>
+            </form>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-
-    </Section>
+    </section>
 
     <section>
-        <h1 id="mi-nombre">
-            ...
-        </h1>
+        <div class="container">
+            <h1 id="mi-nombre">...</h1>
+        </div>
     </section>
 
     <script src="script.js"></script>

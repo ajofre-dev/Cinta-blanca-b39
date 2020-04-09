@@ -38,17 +38,22 @@ var objeto01 = {
 }
 
 var objeto02 = {
-    nombre: "La noche estrellada",
-    autor: "Van Gogh",
-    tecnica: "Oleo",
+    nombre: "La joven de la perla",
+    autor: "Johannes Vermeer",
+    url: "https://i.pinimg.com/originals/c8/b6/d6/c8b6d622594c8ed3b239a895cdb995b3.jpg",
 }
+
+
 
 var objetoNombre = document.getElementById("objeto-nombre");
 var objetoMensaje = document.getElementById("objeto-mensaje");
 var objetoUrl = document.getElementById("objeto-url");
 var objeto01Nombre = document.getElementById("objeto01-nombre");
-var objeto01Mensaje = document.getElementById("objeto01-mensaje")
+var objeto01Autor = document.getElementById("objeto01-autor")
 var objeto01Url = document.getElementById("objeto01-url");
+var objeto02Nombre = document.getElementById("objeto02-nombre");
+var objeto02Mensaje = document.getElementById("objeto02-mensaje")
+var objeto02Url = document.getElementById("objeto02-url");
 //console.log(objetoNombre);
 //console.log(objetoMensaje);
 
@@ -56,12 +61,13 @@ objetoNombre.innerHTML = objeto.nombre;
 objetoMensaje.innerHTML = objeto.obtenerInfo();
 objetoUrl.src = objeto.url;
 objeto01Nombre.innerHTML = objeto01.nombre;
-objeto01Mensaje = objeto01.autor;
+objeto01Autor.innerHTML = objeto01.autor;
 objeto01Url.src = objeto01.url;
+objeto02Nombre.innerHTML = objeto02.nombre;
+objeto02Mensaje.innerHTML = objeto02.autor
+objeto02Url.src = objeto02.url;
 
 //console.log(objetoNombre.innerHTML);
-
-
 
 //console.log(objeto);
 //console.log(objeto.autor);
@@ -75,14 +81,10 @@ objeto01Url.src = objeto01.url;
 //console.log("Un log normal");
 
 
+function dimeMiNombre() {
+var nombre = document.getElementById("nombre");
+var miNombre = document.getElementById("mi-nombre");
 
-
-//objetoUrl.src = objeto.url;
-//objetoUrl.alt = objeto.nombre;
-
-//function dimeMiNomre () {
-    //var nombre = document.getElementById("nombre");
-    //var miNombre = documeny.getElementById("mi-nombre");
-
-    //miNombre.innerHTML = nombre.nodeValue;
-//}
+nombre.value = miNombre.innerHTML;
+//alert ("Tu nombre es " + nombre.value);
+}

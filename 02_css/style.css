@@ -1,0 +1,36 @@
+p{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: arial;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.verde {
+    color: green;
+}
+
+.verde:hover {
+    color: red;
+}
+
+#azul {
+    color: blue;
+}
+
+.cuadrado {
+    background-color: indigo;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    border: solid 5px black;
+    margin: 30px;
+}
+
+/* comentarios pueden ser con cmd + shift + 7  */

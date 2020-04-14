@@ -54,8 +54,8 @@ var objeto01Url = document.getElementById("objeto01-url");
 var objeto02Nombre = document.getElementById("objeto02-nombre");
 var objeto02Mensaje = document.getElementById("objeto02-mensaje")
 var objeto02Url = document.getElementById("objeto02-url");
-//console.log(objetoNombre);
-//console.log(objetoMensaje);
+//console.log(objetoNombre);//
+//console.log(objetoMensaje);//
 
 objetoNombre.innerHTML = objeto.nombre;
 objetoMensaje.innerHTML = objeto.obtenerInfo();

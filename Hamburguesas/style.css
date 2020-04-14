@@ -1,0 +1,29 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(34, 104, 34);
+    padding: 30px;
+    background-image: url(assets/back_header_00000.png);
+    background-repeat: no-repeat;
+}
+
+p{
+    padding-top: 30px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.padding-bottom {
+    padding-bottom: 50px;
+}
+
+.button{
+    height: 40px;
+    
+}

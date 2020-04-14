@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>¿Cómo quieres tu hamburguesa?</title>
+</head>
+
+<body>
+    <header class="">
+        <h2>¿Cómo quieres tu hamburguesa?</h2>
+    </header>
+
+    <section class="container">
+        <p>Selecciona una de cada opción y tu orden se procesará para que disfrutes de tu elección:</p>
+    </section>
+
+    <main class="container">
+        <h3 class="padding-bottom">¿Qué tipo de hamburguesa prefieres?</h3>
+        <div class="row center padding-bottom">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/hamburguesa00005.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Hamburguesa 100% de carne de res Angus</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/hamburguesav00010.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Hamburguesa de portobello, ideal para los vegetarianos.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="padding-bottom center">
+                <select class="button" name="" id="">
+                    <option id="menu-ham" value="">Hamburguesa de res</option>
+                    <option id="menu-hamv" value="">Hamburguesa vegtariana</option>
+                </select>
+            </div>
+        </div>
+        </div>
+
+        <h3 class="padding-bottom">¿Refresco o cerveza? ¿Cuál es tu favorito?</h3>
+        <div class="row center padding-bottom">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/cerveza_00000.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Rica cerveza de la casa, hecha artesanalmente.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/refresco00012.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Refresco de cola para los gustos dulces.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="padding-bottom center">
+            <select class="button" name="" id="">
+                <option value="">Cerveza</option>
+                <option value="">Refresco</option>
+            </select>
+        </div>
+        </div>
+
+        <h3 class="padding-bottom">¿Con o sin papas?</h3>
+        <div class="row center padding-bottom">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/papas00011.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Ricas papas fritas con un toque de oregano.</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="assets/sinpapas00013.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">¿A dieta? Nosotros te apoyamos y no incluimos papas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="padding-bottom center">
+                <select class="button" name="" id="">
+                    <option value="">Con papas</option>
+                    <option value="">Sin papas</option>
+                </select>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <section class="container padding-bottom center">
+        <button type="button" class="btn btn-secondary">Presiona para ordenar</button>
+    </section>
+
+    <section>
+        <h3 id="orden">...</h3>
+        <img id="orden imagen" src="" alt="">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
